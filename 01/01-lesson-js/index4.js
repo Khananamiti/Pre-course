@@ -2,13 +2,6 @@
 const info = {
     title: 'it-incubator',
     graduatesCount: 2000,
-    areYouChampion: true
-}
-
-// data
-const info2 = {
-    title: 'it-incubator',
-    graduatesCount: 2000,
     areYouChampion: true,
     technologies: ['Front', 'Back', 'DevOps']
 }
