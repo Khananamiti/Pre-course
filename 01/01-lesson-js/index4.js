@@ -20,4 +20,17 @@ areYouChampionElement.type = 'checkbox';
 areYouChampionElement.checked = info.areYouChampion;
 document.body.append(areYouChampionElement);
 
+let techSelectElement = document.createElement('select');
 
+let techSelectOption0Element = document.createElement('option');
+techSelectOption0Element.append(info.technologies[0]);
+
+let techSelectOption1Element = document.createElement('option');
+techSelectOption1Element.append(info.technologies[1]);
+
+let techSelectOption2Element = document.createElement('option');
+techSelectOption2Element.append(info.technologies[2]);
+
+techSelectElement.append(techSelectOption0Element, techSelectOption1Element, techSelectOption2Element);
+
+document.body.append(techSelectElement);
