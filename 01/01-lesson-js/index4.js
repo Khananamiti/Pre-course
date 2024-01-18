@@ -4,9 +4,9 @@ const info = {
   graduatesCount: 2000,
   areYouChampion: true,
   technologies: [
-    { title: 'Front' }, 
-    { title: 'Back' }, 
-    { title: 'DevOps' }
+    { id: 1, title: 'Front' }, 
+    { id: 2, title: 'Back' }, 
+    { id: 3, title: 'DevOps' }
   ]
 }
 
